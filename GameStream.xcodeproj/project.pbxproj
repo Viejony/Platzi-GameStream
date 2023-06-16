@@ -18,10 +18,10 @@
 		290F57DB28566D2E00CEC731 /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F57DA28566D2E00CEC731 /* ProfileTab.swift */; };
 		290F57DE2856757100CEC731 /* EditProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F57DD2856757100CEC731 /* EditProfileScreen.swift */; };
 		290F57E02856BEFF00CEC731 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F57DF2856BEFF00CEC731 /* SaveData.swift */; };
-		290F57E22856D05100CEC731 /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F57E12856D05100CEC731 /* SUImagePickerView.swift */; };
 		2923360E284F8F010051B34C /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923360D284F8F010051B34C /* TabScreen.swift */; };
 		2987A107285B6837000717CD /* OffsetPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987A106285B6837000717CD /* OffsetPosition.swift */; };
 		2987A10A285B6E44000717CD /* GeometryReaderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987A109285B6E44000717CD /* GeometryReaderX.swift */; };
+		29A45456286A543A007B6F64 /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A45455286A543A007B6F64 /* SUImagePickerView.swift */; };
 		29FD547A284E382E00BC3A0E /* GameStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD5479284E382E00BC3A0E /* GameStreamApp.swift */; };
 		29FD547C284E382E00BC3A0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD547B284E382E00BC3A0E /* ContentView.swift */; };
 		29FD547E284E383000BC3A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FD547D284E383000BC3A0E /* Assets.xcassets */; };
@@ -39,10 +39,10 @@
 		290F57DA28566D2E00CEC731 /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
 		290F57DD2856757100CEC731 /* EditProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileScreen.swift; sourceTree = "<group>"; };
 		290F57DF2856BEFF00CEC731 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
-		290F57E12856D05100CEC731 /* SUImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SUImagePickerView.swift; path = ../../../../Desktop/SUImagePickerView/SUImagePickerView/SUImagePickerView.swift; sourceTree = "<group>"; };
 		2923360D284F8F010051B34C /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 		2987A106285B6837000717CD /* OffsetPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetPosition.swift; sourceTree = "<group>"; };
 		2987A109285B6E44000717CD /* GeometryReaderX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderX.swift; sourceTree = "<group>"; };
+		29A45455286A543A007B6F64 /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 		29FD5476284E382E00BC3A0E /* GameStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FD5479284E382E00BC3A0E /* GameStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStreamApp.swift; sourceTree = "<group>"; };
 		29FD547B284E382E00BC3A0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 		290F57C928540EC000CEC731 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				290F57E12856D05100CEC731 /* SUImagePickerView.swift */,
 				290F57CB2854EFF500CEC731 /* Model.swift */,
+				29A45455286A543A007B6F64 /* SUImagePickerView.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -225,13 +225,13 @@
 				29FD547C284E382E00BC3A0E /* ContentView.swift in Sources */,
 				290F57D92856681700CEC731 /* FavoritesTab.swift in Sources */,
 				290F57C728540A5F00CEC731 /* GamesTab.swift in Sources */,
+				29A45456286A543A007B6F64 /* SUImagePickerView.swift in Sources */,
 				290F57DE2856757100CEC731 /* EditProfileScreen.swift in Sources */,
 				2987A10A285B6E44000717CD /* GeometryReaderX.swift in Sources */,
 				290F57D02854FEB500CEC731 /* StartTab.swift in Sources */,
 				290F57D52855246E00CEC731 /* GameDetails.swift in Sources */,
 				290F57DB28566D2E00CEC731 /* ProfileTab.swift in Sources */,
 				2987A107285B6837000717CD /* OffsetPosition.swift in Sources */,
-				290F57E22856D05100CEC731 /* SUImagePickerView.swift in Sources */,
 				29FD547A284E382E00BC3A0E /* GameStreamApp.swift in Sources */,
 				290F57CE2854F28700CEC731 /* ViewModel.swift in Sources */,
 				2923360E284F8F010051B34C /* TabScreen.swift in Sources */,
